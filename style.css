@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 32em;
+    height: auto;
+    margin-inline: auto;
+    margin-top: 7em;
+    text-align: center;
+    padding-top: 2em;
+    border-radius: 5px;
+    box-shadow: 1px 3px 10px 1px #a39f9f;
+}
+
+.head-title {
+    color: crimson;
+    margin-bottom: 1em;
+    letter-spacing: 2px;
+}
+
+
+.container-items{
+    width: 90%;
+    margin-inline: auto;
+} 
+
+.input-submit {
+    width: 100%;
+    display: flex;
+}
+
+#input-item {
+    flex-grow: 2;
+    padding: .2em 1em;
+    transition: all .4s;
+    transition-delay: .3s;
+}
+
+input[type="text"] {
+    font-size: 1em;
+}
+
+#input-item:focus {
+    outline: none;
+    border: 3px solid rgb(51, 24, 255);
+    border-radius: 3px;
+}
+
+#submit {
+    font-size: 1em;
+    color: rgb(121, 238, 238);
+    letter-spacing: 3px;
+    padding-inline: 1.4em;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 3px;
+    transition: all .4s;
+    transition-delay: .3s ;
+}
+
+#submit:hover {
+    background-color: brown;
+}
+
+.grocery-items {
+    margin-top: 1.5em;
+    margin-inline: 1em;
+    margin-bottom: 1.2em;
+    color: rgb(109, 19, 18);
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+
+.item-container {
+    display: flex;
+    justify-content: left;
+    margin-bottom: .3em;
+}
+
+.item {
+    text-align: left;
+    width: 100%;
+}
+
+button {
+    font-size: .8em;
+    font-weight: bold;
+    padding-inline: .3em;
+    border: 1px darkblue solid;
+}
+
+button:hover {
+    background-color: rgba(212, 207, 207, 0.658);
+}
+
+.check {
+    margin-right: .7em;
+    color: green;
+}
+
+.check:hover {
+    color: rgb(25, 221, 25);
+}
+
+.delete {
+    color: rgb(149, 7, 7);
+}
+
+.delete:hover {
+    color: rgb(249, 32, 32);
+}
+
+#clear-items {
+    color: rgb(149, 7, 7) ;
+    font-size: 1.3em;
+    letter-spacing: 2px;
+    border: none;
+    margin-bottom: 1.5em;
+    transition: all .3s;
+    transition-delay: .1s;
+}
+
+#clear-items:hover {
+    color: rgb(249, 32, 32);
+    font-weight: bold;
+}
+
+.error {
+    border: 3px solid red;
+    border-radius: 3px;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
